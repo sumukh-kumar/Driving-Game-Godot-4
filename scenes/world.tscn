@@ -5,6 +5,10 @@
 
 [node name="Node3D" type="Node3D"]
 
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.258819, 0.634976, -0.727886, 0, 0.753563, 0.657375, 0.965926, 0.170141, -0.195037, 0, 0, 0)
+shadow_enabled = true
+
 [node name="Road" parent="." instance=ExtResource("1_uytf3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.38377, 9.53674e-07, -25.4068)
 
