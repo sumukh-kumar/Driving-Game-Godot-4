@@ -456,7 +456,7 @@ points = PackedVector3Array(1.20388, -0.438554, -1.13051, 1.1928, 0.0953528, 2.1
 [node name="Nissan GTR" type="VehicleBody3D"]
 transform = Transform3D(0.12581, 0, 0, 0, 0.12581, 0, 0, 0, 0.12581, 0, 0, 0)
 center_of_mass_mode = 1
-center_of_mass = Vector3(0, 0.15, 1.05)
+center_of_mass = Vector3(0, 0.15, 0)
 gravity_scale = 4.0
 script = ExtResource("1_gtmej")
 
@@ -525,7 +525,7 @@ shape = SubResource("ConvexPolygonShape3D_x8stp")
 transform = Transform3D(-7.94849, -6.05627e-08, 6.92235e-07, 0, 7.91825, 0.692756, -6.9488e-07, 0.692756, -7.91825, 0, 1.03375, 0.310066)
 
 [node name="CentreOfMass" type="Node3D" parent="."]
-transform = Transform3D(0.821428, -0.570312, 0, 0.570312, 0.821428, 0, 0, 0, 1, 0, 0.15, 1.05)
+transform = Transform3D(0.821428, -0.570312, 0, 0.570312, 0.821428, 0, 0, 0, 1, 0, 0.15, 2.46261)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 
