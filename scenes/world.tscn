@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtyup4hbx31d1"]
+
+[ext_resource type="PackedScene" uid="uid://5uxacisf4x08" path="res://scenes/Road.tscn" id="1_uytf3"]
+[ext_resource type="PackedScene" uid="uid://dbokmvfet5f6f" path="res://scenes/car.tscn" id="2_rn8q5"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Road" parent="." instance=ExtResource("1_uytf3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.38377, 9.53674e-07, -25.4068)
+
+[node name="Nissan GTR" parent="." instance=ExtResource("2_rn8q5")]
+transform = Transform3D(0.227735, 0, 0, 0, 0.227735, 0, 0, 0, 0.227735, -296.998, 5.71224, -930.125)

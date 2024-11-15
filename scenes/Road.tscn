@@ -10,10 +10,12 @@ point_count = 10
 [node name="Node3D" type="Node3D"]
 
 [node name="Path3D" type="Path3D" parent="."]
-transform = Transform3D(2.45601, 0, 0, 0, 1, 0, 0, 0, 1.92445, 0, 0, 0)
+transform = Transform3D(3.46639, 0, 0, 0, 1.41139, 0, 0, 0, 2.71615, 0, 0, 0)
 curve = SubResource("Curve3D_2l6gp")
 
 [node name="CSGPolygon3D" type="CSGPolygon3D" parent="Path3D"]
+transform = Transform3D(7.74199, 0, 0, 0, 9.76508, 0, 0, 0, 11.1618, 0, 0, 0)
+use_collision = true
 polygon = PackedVector2Array(0, 0, 0.00269473, 0.0795593, 0.230743, 0.0849285, 0.229437, 7.30455e-05)
 mode = 2
 path_node = NodePath("..")
