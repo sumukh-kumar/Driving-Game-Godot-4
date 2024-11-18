@@ -456,7 +456,6 @@ points = PackedVector3Array(1.20388, -0.438554, -1.13051, 1.1928, 0.0953528, 2.1
 [node name="Nissan GTR" type="VehicleBody3D"]
 transform = Transform3D(0.12581, 0, 0, 0, 0.12581, 0, 0, 0, 0.12581, 0, 0, 0)
 center_of_mass_mode = 1
-center_of_mass = Vector3(0, 0.15, 0)
 gravity_scale = 4.0
 script = ExtResource("1_gtmej")
 

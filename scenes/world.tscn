@@ -13,4 +13,4 @@ shadow_enabled = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.38377, 9.53674e-07, -25.4068)
 
 [node name="Nissan GTR" parent="." instance=ExtResource("2_rn8q5")]
-transform = Transform3D(0.227735, 0, 0, 0, 0.227735, 0, 0, 0, 0.227735, -296.998, 5.71224, -930.125)
+transform = Transform3D(0.0615946, 0, 0.219247, 0, 0.227735, 0, -0.219247, 0, 0.0615946, -296.998, 3.22733, -930.125)
